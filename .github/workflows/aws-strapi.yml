@@ -2,9 +2,6 @@ name: Deploy Strapi
 
 on:
   push:
-    branches: ["main"]
-    paths:
-      - "cms/**"
 
 env:
   AWS_REGION: eu-west-3
